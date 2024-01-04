@@ -1,0 +1,8 @@
+const SCREENS = {
+    UI_EXAM: 'UI EXAM',
+    NATIVE_MODULE_EXAM: 'NATIVE MODULE EXAM'
+}
+
+export {
+    SCREENS 
+}

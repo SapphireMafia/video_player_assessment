@@ -1,0 +1,13 @@
+diff --git a/node_modules/@salihgun/react-native-video-processor/src/components/TrimmerComponent.tsx b/node_modules/@salihgun/react-native-video-processor/src/components/TrimmerComponent.tsx
+index a99301f..bab79cd 100644
+--- a/node_modules/@salihgun/react-native-video-processor/src/components/TrimmerComponent.tsx
++++ b/node_modules/@salihgun/react-native-video-processor/src/components/TrimmerComponent.tsx
+@@ -89,7 +89,7 @@ export class TrimmerComponent extends React.Component<ITrimmerComponentProps> {
+             ...styles.mainContainerStyle,
+             ...this.props.sliderContainerStyle,
+           }}
+-          maximumValue={this.roundedDuration - 1.5}
++          maximumValue={this.roundedDuration}
+           thumbStyle={this.props.thumbStyle}
+           renderThumb={this.props.renderThumb}
+         />
